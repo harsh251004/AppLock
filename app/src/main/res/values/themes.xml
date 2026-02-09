@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DayNight for predictive back (avoids white/black flicker during gesture) -->
+    <style name="Theme.AppLock" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Allow system to "peek" at content behind during predictive back gesture -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+    <!-- Settings: Material You (M3 Dynamic Colors DayNight) -->
+    <style name="Theme.AppLock.Settings" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <!-- Transparent overlay for lock screen on top of locked app -->
+    <style name="Theme.AppLock.Overlay" parent="Theme.AppLock">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

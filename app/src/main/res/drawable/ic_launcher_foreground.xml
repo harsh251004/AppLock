@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pixel-style lock icon: clean, minimal, centered for adaptive icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Lock shackle (rounded U, thick stroke) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,52 L42,38 Q42,32 54,32 Q66,32 66,38 L66,52 L62,52 L62,42 Q54,38 46,42 L46,52 Z" />
+    <!-- Lock body (rounded rectangle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,52 L68,52 Q72,52 72,56 L72,76 Q72,80 68,80 L40,80 Q36,80 36,76 L36,56 Q36,52 40,52 Z" />
+</vector>
